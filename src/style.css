@@ -16,11 +16,8 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 100;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
+  line-height: 25px;
+  margin-bottom: 0;
 }
 
 li {
@@ -31,6 +28,23 @@ li {
   font-size: 20px;
   font-weight: 1px;
 }
-._blank {
-  text-align: center;
+.weather-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-visual img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.float-left strong {
+  color: #845ec2;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 500;
+}
+.float-left .units {
+  position: relative;
+  font-size: 20px;
 }

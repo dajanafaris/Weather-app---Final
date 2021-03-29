@@ -12,9 +12,17 @@
 <body>
     <div class="container">
         <div class="weather-app">
+            <div class="weather-wrapper">
     <h1>
         Pula,Croatia
     </h1>
+    <div class="float-left">
+        <strong>
+        20 
+        
+        <span class="units">C°</span>
+        </strong>
+    </div>
     <ul>
         <li>
             Monday 9:23
@@ -24,11 +32,15 @@
 </li>
     </ul>
     <div class="row">
-        <div class="col-md-6">
-            <img src="visuals/Weather_Isometric.svg " alt="vrijeme danas"/>
+        <div class="col-6">
+            <div class="clearfix weather-visual">
+              <img src="visuals/Weather_Isometric.svg "
+               alt="Sunny" id="icon" class="float-left" />
+        
+             </div>
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-6">
         <ul>
             <li>
                 Humidity: 5%
@@ -38,12 +50,15 @@
             </li>
         </ul>
     </div>
+    
+    
     <small>
         <a href="https://github.com/dajanafaris/Weather-app---Final" target="_blank">
             Open source code </a> by Dajana Faris
     </small>
-    </div>
-    </div>
+</div>
+</div>
+
     <script src="src/index.js"> </script>
 </body>
 </html>
