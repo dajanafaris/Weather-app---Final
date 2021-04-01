@@ -2,6 +2,36 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.btnSearch,
+.btnLocation {
+  color: rgb(255, 255, 255);
+  padding: 5px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #cacaca;
+}
+
+.btnSearch {
+  background-color: #9537fc;
+  border: 1px solid #9537fc;
+}
+
+.btnSearch:hover {
+  background-color: #ffffff;
+  color: #9537fc;
+  border: 1px solid #9537fc;
+}
+
+.btnLocation {
+  background-color: #24acd6;
+  border: 1px solid #24acd6;
+}
+
+.btnLocation:hover {
+  background-color: #ffffff;
+  color: #24acd6;
+  border: 1px solid #24acd6;
+}
+
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
@@ -16,8 +46,8 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 100;
-  line-height: 25px;
   margin-bottom: 0;
+  padding-top: 10px;
 }
 
 li {
@@ -36,7 +66,6 @@ li {
 .weather-visual img {
  display: block;
 width: 300px;
-
 }
 
 .float-left strong {
