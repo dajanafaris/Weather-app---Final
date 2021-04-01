@@ -29,7 +29,7 @@ li {
   font-weight: 1px;
 }
 .weather-wrapper {
-  max-width: 600px;
+  max-width: 600;
   margin: 30px auto;
 }
 
@@ -47,4 +47,9 @@ li {
 .float-left .units {
   position: relative;
   font-size: 20px;
+}
+
+.float-right {
+  text-align: center;
+  margin: 20px 20px 0;
 }
