@@ -63,11 +63,9 @@ li {
   margin: 30px auto;
 }
 
-
-.center-block{
-   display: block;
- margin:0 auto;
-  
+.center-block {
+  display: block;
+  margin: 0 auto;
 }
 
 .float-left strong {
@@ -82,14 +80,16 @@ li {
   color: #7868fc;
 }
 
-.float-right {
+.actual-time {
   text-align: right;
+  margin: 0 20px 0 0;
+}
+
+.float-right {
+  text-align: center;
   margin: 0 auto;
 }
-
-.horizontal-line {
+.line-style {
   border: 1px solid #845ec2;
-  opacity:0,5:
+  opacity:1:
 }
-
-
