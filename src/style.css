@@ -1,8 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  
 }
-
 
 .btnSearch,
 .btnLocation {
@@ -40,12 +38,16 @@ body {
   padding: 10px;
   border: 1px solid #7868fc;
   border-radius: 20px;
- background-image: radial-gradient( circle 344px at 1.4% 0%,  rgba(242,185,252,1) 19.3%, rgba(250,254,190,1) 80.7% );
+  background-image: radial-gradient(
+    circle 344px at 1.4% 0%,
+    rgba(242, 185, 252, 1) 19.3%,
+    rgba(250, 254, 190, 1) 80.7%
+  );
 }
 
 h1 {
-  color:#006BA4;
-   display: block;
+  color: #006ba4;
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 100;
@@ -53,15 +55,15 @@ h1 {
   padding-top: 10px;
 }
 
-h3{
-  color: #006BA4;
+h3 {
+  color: #006ba4;
   font-size: 20px;
 }
 
 li {
   list-style: none;
   margin: 10px;
-  padding:0 20px 0 0 ;
+  padding: 0 20px 0 0;
   color: black;
   font-size: 20px;
   font-weight: 1px;
@@ -71,13 +73,13 @@ li {
   margin: 30px auto;
 }
 
-.center-block{
+.center-block {
   display: block;
   margin: 0 auto;
 }
 
 .float-left strong {
-  color:#006BA4;
+  color: #006ba4;
   font-size: 30px;
   line-height: 1;
   font-weight: 500;
@@ -85,14 +87,14 @@ li {
 .float-left .units {
   position: relative;
   font-size: 30px;
-  color: #006BA4;
+  color: #006ba4;
 }
 
 .actual-time {
   text-align: left;
   margin: 0 auto;
-  color: #006BA4;
-   font-size: 20px;
+  color: #006ba4;
+  font-size: 20px;
 }
 
 .float-right {
@@ -102,20 +104,20 @@ li {
 
 .line-style {
   border: 1px solid #845ec2;
-  opacity:1:
+  opacity: 0, 5;
 }
 
 #icon {
   width: 150px;
   display: flex;
-  align-items: center;  
-  margin: 0 5px 0 0 ;
+  align-items: center;
+  margin: 0 5px 0 0;
 }
 
-ul{
+ul {
   text-align: center;
 }
 
-.text-center{
- margin: 0px 0 50px 0 ;
+.text-center {
+  margin: 0px 0 50px 0;
 }
