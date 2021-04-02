@@ -44,12 +44,20 @@ windElement.innerHTML = response.data.wind.speed;
 dateElement = displayDate(currentTime);
 }
 
+
 function search (city) {
-    let city = "Paris";
 let apiKey="6d15a99ffb8493d1efc42cac1693ceeb";
 let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-
 
 axios.get(apiUrl).then(displayTemperature);
 }
 
+function handleSubimt(event) {
+event.preventDefault();
+let searchInputElement =document.querySelector("#search-input");
+search (searchInputElement.value)
+
+}
+
+let form = document.querySelector("search-form");
+form.addEventListener("submit",handleSubimt);
