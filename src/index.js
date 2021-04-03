@@ -70,8 +70,6 @@ function displayCelsiusTemperature(event){
 let celsiusTemperature = null;
 
 let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("clisk", displayCelsiusTemperature);
+celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
-
-
-search ("Pula");
+search("Pula");
