@@ -68,8 +68,14 @@ li {
   font-size: 20px;
   font-weight: 1px;
 }
+
 h3:first-letter {
   text-transform: capitalize;
+}
+
+#image {
+  margin-bottom: 20px;
+  width: 350px;
 }
 
 .weather-wrapper {
@@ -111,17 +117,17 @@ h3:first-letter {
   opacity: 0, 5;
 }
 
-#icon {
-  width: 150px;
-  display: flex;
-  align-items: center;
-  margin: 0 5px 0 0;
-}
-
 ul {
   text-align: center;
 }
 
 .text-center {
   margin: 0px 0 50px 0;
+}
+#icon {
+  align-items: center;
+  width: 150px;
+  display: flex;
+  margin: 0 5px 0 0;
+  padding-right: 20px;
 }
