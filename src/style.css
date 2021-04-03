@@ -68,6 +68,10 @@ li {
   font-size: 20px;
   font-weight: 1px;
 }
+h3:first-letter {
+  text-transform: capitalize;
+}
+
 .weather-wrapper {
   max-width: 500;
   margin: 30px auto;
@@ -84,7 +88,7 @@ li {
   line-height: 1;
   font-weight: 500;
 }
-.float-left .units {
+#celsius-link {
   position: relative;
   font-size: 30px;
   color: #006ba4;
