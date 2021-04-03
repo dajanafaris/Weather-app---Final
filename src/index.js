@@ -61,6 +61,10 @@ function handleSubmit (event){
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
+let button = document.querySelector("#search-button");
+button.addEventListener("click", handleSubmit);
+
+
 function displayCelsiusTemperature(event){
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
