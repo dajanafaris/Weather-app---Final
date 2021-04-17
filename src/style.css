@@ -131,6 +131,7 @@ h3:first-letter {
 .weather-forecast-temperature-min {
   margin-left: 10px;
   opacity: 0.6;
+  color: #006ba4;
 }
 .weather-forecast-temperature-max {
   font-weight: 700;
@@ -140,4 +141,5 @@ h3:first-letter {
   text-align: center;
   margin: 40px 0;
   padding-bottom: 50px;
+  color: #006ba4;
 }
