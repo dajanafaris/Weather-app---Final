@@ -22,6 +22,38 @@ function formatDate(date) {
   let day = days[dayIndex];
   return `${day} ${hours}:${minutes}`;
 }
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Thu", "Fri", "Sat", "Sun"];
+
+  let forecastHTML = `<div class="row">`;
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+        <div class="col-2">
+           
+     <div class="weather-forecast-date">${day}</div>
+               
+                <img src="visuals/iconfinder_weather01_4102328.png"
+                alt""
+                width="42"/>
+
+               <div class="weather-forecast-temperatures">
+                <span class="weather-forecast-temperature-max">
+                    <strong> 17°C </strong></span>
+                 <span class="weather-forecast-temperature-min">
+                      12°C </span>      
+        </div>
+    </div>     
+  `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+  console.log(forecastHTML);
+}
 
 function displayTemperature(response){
 let temperatureElement = document.querySelector("#temperature");
@@ -77,3 +109,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Pula");
+displayForecast();
