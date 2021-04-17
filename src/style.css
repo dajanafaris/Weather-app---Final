@@ -41,12 +41,13 @@
 h1 {
   margin: 30px;
   color: #006ba4;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   margin-bottom: 0;
   padding-top: 10px;
 }
-
+h2 {
+  margin: 30px;
+}
 li {
   list-style: none;
   margin: 10px;
@@ -63,10 +64,12 @@ h3:first-letter {
 #image {
   margin-bottom: 20px;
   width: 350px;
+  display: block;
+  margin-left: 80px;
 }
 
 .weather-wrapper {
-  max-width: 500;
+  max-width: 400;
   margin: 30px auto;
 }
 
@@ -92,14 +95,12 @@ h3:first-letter {
   font-size: 50px;
   color: #006ba4;
 }
-
 .actual-time {
   text-align: left;
   margin: 0 auto;
   color: #006ba4;
   font-size: 20px;
 }
-
 .line-style {
   border: 1px solid #845ec2;
   opacity: 0, 5;
@@ -115,6 +116,7 @@ h3:first-letter {
 #description {
   margin-left: 10px;
   text-transform: capitalize;
+  font-weight: 700;
 }
 
 .col-md-4 {
