@@ -1,9 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-.container {
-  background-color: #e0eafc;
-}
 
 .btnSearch,
 .btnLocation {
@@ -36,8 +33,10 @@ body {
 }
 
 .weather-app {
-  max-width: 600px;
-  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e0eafc;
+  max-width: 800px;
+  margin: 60px auto;
   padding: 10px;
   border: 1px solid #7868fc;
   border-radius: 20px;
@@ -51,11 +50,6 @@ h1 {
   font-weight: 100;
   margin-bottom: 0;
   padding-top: 10px;
-}
-
-h3 {
-  color: #006ba4;
-  font-size: 20px;
 }
 
 li {
@@ -97,6 +91,11 @@ h3:first-letter {
   font-size: 30px;
   color: #006ba4;
 }
+#temperature {
+  position: relative;
+  font-size: 30px;
+  color: #006ba4;
+}
 
 .actual-time {
   text-align: left;
@@ -122,14 +121,30 @@ ul {
 .text-center {
   margin: 0px 0 50px 0;
 }
-#icon {
-  align-items: center;
-  width: 150px;
-  display: flex;
-  margin: 0 5px 0 0;
-  padding-right: 20px;
+
+#date {
+  margin-left: 10px;
 }
+#description {
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
 .col-md-4 {
   color: #006ba4;
   font-size: 20px;
+}
+
+.weather-forecast-temperature-min {
+  margin-left: 10px;
+  opacity: 0.6;
+}
+.weather-forecast-temperature-max {
+  font-weight: 700;
+}
+
+.weather-forecast {
+  text-align: center;
+  margin: 40px 0;
+  padding-bottom: 50px;
 }
